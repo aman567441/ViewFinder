@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewPhoto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <!-- google font -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./wedding.css">
+    <link rel="stylesheet" href="./fashion.css">
+
+    <!-- link juery -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet" />
+
+    <!-- fontAwesom link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar  navbar-expand-lg ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="./home.html">VIEW FINDER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                
+                    <div class="dropdown  px-2">
+                        <a class="btn text-black dropdown-toggle " href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">HOME </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li class="dropdown dropend ">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHOTOGRAPHY</a>
+                                <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
+                                    <li>
+                                        <a class="dropdown-item" href="./wedding.html">WEDDING PHOTOGRAPHY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./fashion.html">FASHION PHOTOGRAPHY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./event.html">EVENT PHOTOGRAPHY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./travel.html">TRAVEL PHOTOGRAPHY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./sports.html">SPORTS PHOTOGRAPHY</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./product.html">PRODUCT PHOTOGRAPHY</a>
+                                    </li>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li class="dropdown dropend">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">VIDEOGRAPHY</a>
+                            <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
+                                <li><a class="dropdown-item" href="#">Action1</a></li>
+                                <li><a class="dropdown-item" href="#">Actio2</a></li>
+                                <li><a class="dropdown-item" href="#">Action3</a></li>
+                        </li>
+                   </ul>
+                </ul>
+            </div>
+
+            <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#about-me">ABOUT US</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#services">SERVICES</a></li>
+                    <li><a class="dropdown-item" href="#our-crew">OUR CREW</a></li>
+                    <li><a class="dropdown-item" href="#contact-us">CONTACT US</a></li>
+                </ul>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active px-4" href="./login.html">LOGIN</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active" href="./login.html">SIGN UP</a>
+            </li>
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+    <!-- navbar end  -->
+
+    <div class="container-fluid" id="home-1">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner home-1">
+                <div class="carousel-item active">
+                    <div class="carousel-caption fw-medium">
+                        <p class="fs-4">FASHION PHOTOGRAPHY STUDIO</p>
+                        <h1 class="py-3">VIEW FINDER</h1>
+                        <a href="#book-now" type="button" class="btn btn-lg  text-light  fw-bold">BOOK
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallary -->
+    <div class="container-fluid" id="about-us">
+        <div class="text-center pt-5">
+            <p class="fs-4 text-danger-emphasis">GET TO KNOW MORE</p>
+            <h2 class="text-secondary">ABOUT FASHION PHOTOGRAPHY</h2>
+        </div>
+        <div class="row justify-content-center pt-3 pb-5">
+            <div class="col-md-3">
+                <div class="box bg-white p-5">
+                    <P class="fs-3 text-danger-emphasis text-bold">SHOOT BEYOND LIKE NEVER BEFORE</P>
+                    <hr class="text-danger-emphasis" />
+                    <P>Unleashing the artistry of fashion through my lens, I seamlessly blend technical precision with creative vision. From dynamic compositions to capturing the essence of style, my photography brings fashion to life with every frame</P>
+                    <hr class="text-danger-emphasis" />
+                    <P>Elevate your brand with images that reflect the beauty, sophistication, and innovation synonymous with the world of high fashion.</P>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="slider-container pt-2">
+                    <div class="slider">
+                        <div class="slide"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 1"></div>
+                        <div class="slide"><img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 2"></div>
+                        <div class="slide"><img src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man_158538-19393.jpg?w=996&t=st=1700310539~exp=1700311139~hmac=f985198e08dc36decacafa8bcbb120019016d489b8b83d019c33ddc7768f1c5f" alt="Image 3"></div>
+                        <div class="slide"><img src="https://images.pexels.com/photos/432059/pexels-photo-432059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 1"></div>
+                        <div class="slide"><img src="https://images.pexels.com/photos/1599900/pexels-photo-1599900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2"></div>
+                        <div class="slide"><img src="https://images.pexels.com/photos/2802685/pexels-photo-2802685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3"></div>
+                        <!-- Add more slides as needed -->
+                    </div>
+
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            const slider = document.querySelector('.slider');
+            slider.style.transform = `translateX(${-index * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+    </script>
+    <!-- gallary end -->
+
+    <!-- services -->
+    <div class="container-fluid" id="services">
+        <div class="text-center pt-3">
+            <p class="fs-5 text-danger-emphasis">EASY AND SIMPLE</p>
+            <h2 class="text-secondary">OUR GREAT SERVICES</h2>
+        </div>
+        <div class="row justify-content-center pt-3 pb-5">
+
+            <div class="col-md-3 text-bold service">
+                <div class="box-1 bg-white p-2 text-center">
+                    <i class="text-danger-emphasis bi bi-camera-fill fs-2"></i>
+                    <P class="fs-5">FASHION SHOOTING</P>
+                    <hr />
+                    <p>Transcend style boundaries with my lens as I capture the essence of elegance, sophistication, and trendsetting fashion in every frame.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-bold service">
+                <div class="box-1 bg-white p-2 text-center">
+                    <i class=" text-danger-emphasis bi bi-heart fs-2"></i>
+                    <P class="fs-5">FINE RETOUCHING</P>
+                    <hr />
+                    <p>Precision in every pixel – indulge in the art of fine retouching for photographs that radiate perfection.</p>
+                </div>
+            </div>
+            <div class="col-md-3  text-bold service">
+                <div class="box-1 bg-white p-2 text-center">
+                    <i class=" text-danger-emphasis bi bi-card-image fs-2"></i>
+                    <P class="fs-5">PHOTO EDITING</P>
+                    <hr />
+                    <p>Elevate your visuals with expert photo editing, where every image is meticulously refined to achieve a flawless and captivating narrative.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- services end -->
+
+
+    <!-- profile -->
+    <div class="container-fluid" id="our-crew">
+        <div class="text-center pt-3">
+            <p class="fs-5 text-danger-emphasis">MEET US</p>
+            <h2 class="text-secondary">FASHION PHOTOGRAPHY TEAM</h2>
+        </div>
+
+        <div class="row justify-content-center pt-3 pb-5">
+            <div class="col-md-3">
+                <div class="card p-0 profile-card">
+                    <div class="profile-card-image">
+                        <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" />
+                    </div>
+                    <div class="profile-card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-2">ANISH </h4>
+                        <h5>Fashion Photographer</h5>
+
+                        <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i: 1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-0 profile-card">
+                    <div class="profile-card-image">
+                        <img src="https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" />
+                    </div>
+                    <div class="profile-card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-2">SANTOSH </h4>
+                        <h5>Fashion Photographer</h5>
+
+                        <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i: 1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card p-0 profile-card">
+                    <div class="profile-card-image">
+                        <img src="https://images.pexels.com/photos/3136182/pexels-photo-3136182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" />
+                    </div>
+                    <div class="profile-card-content d-flex flex-column align-items-center">
+                        <h4 class="pt-2">RAHUL</h4>
+                        <h5>Fashion Photographer</h5>
+
+                        <ul class="social-icons d-flex justify-content-center">
+                            <li style="--i: 1">
+                                <a href="#">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- profile end -->
+
+    <div class="text-center pt-5">
+        <p class="fs-4 text-danger-emphasis">welcome</p>
+        <h2 class="text-secondary">BOOK A PHOTOSESSION TODAY</h2>
+    </div>
+    <section class=" container h-100 bg-dark" id="book-now">
+        <div class=" py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card card-registration my-4 ">
+                        <div class="row g-0">
+                            <div class="col-xl-6 d-none d-xl-block">
+                                <img src="https://cdn.pixabay.com/photo/2016/11/29/01/34/man-1866572_640.jpg"
+                                    alt="Sample photo" class="img-fluid"
+                                    style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-uppercase">Book The Camera</h3>
+                                    <form action="https://formspree.io/f/xleykley" method="POST"
+                                    enctype="multipart/form-data" id="myForm">
+                                        <div class="row">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline">
+                                                    <input type="text" id="firstname"
+                                                     name="firstname"   class="form-control form-control-lg"  required/>
+                                                    <label class="form-label" for="firstname" >First name</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="form-outline">
+                                                    <input type="text" id="lastname"
+                                                      name="lastname"  class="form-control form-control-lg"  required/>
+                                                    <label class="form-label" for="lastname">Last name</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <input type="email" id="email" name="email"
+                                                class="form-control form-control-lg"  required/>
+                                            <label class="form-label" for="email">Email ID</label>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <input type="text" id="address"
+                                             name="address"   class="form-control form-control-lg" required/>
+                                            <label class="form-label" for="address">Address</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="number" id="pincode"
+                                               name="pincode" class="form-control form-control-lg" required/>
+                                            <label class="form-label" for="text">Pincode</label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5 mb-4">
+                                                <select class="select" id="state" name="state" required>
+                                                    <option name="state">State</option>
+                                                    <option name="state">Bihar</option>
+                                                    <label class="form-label" for="state">Address</label>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+
+                                                <select class="select" id="city" name="city" required>
+                                                    <option name="city">Patna</option>
+                                                    <option name="city">Arwal</option>
+                                                    <option name="city">Gaya</option>
+                                                    <option name="city">DArbhanga</option>
+                                                    <label class="form-label" for="city">Address</label>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <select class="form-select" aria-label="Default select example" name="option" id="option" required>
+                                                <option selected>select one</option>
+                                                <option name="option">WEDDING PHOTOGRAPHY</option>
+                                                <option name="option">FASHION PHOTOGRAPHY</option>
+                                                <option name="option">EVENT PHOTOGRAPHY</option>
+                                                <option name="option">TRAVEL PHOTOGRAPHY</option>
+                                                <option name="option">SPORTS PHOTOGRAPHY</option>
+                                                <option name="option">PRODUCT PHOTOGRAPHY</option>
+                                            </select>
+                                            <label class="form-label" for="option">Events</label>
+                                        </div>
+                                        <div class="d-flex justify-content-end pt-3">
+                                            <button type="button" class="btn btn-light btn-lg" value="Reset"  onClick = "fun()">Reset all</button>
+                                            <button type="submit" value="Submit" class="btn btn-warning btn-lg ms-2" >Book</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function fun(){
+          document.getElementById("myForm").reset();
+        } 
+       </script>
+    <!-- footer start -->
+    <div class="section" id="footer">
+        <div class="container-fluid">
+            <div class="footer-card bg-white mx-5">
+                <div class="row mb-4">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="footer-text pull-left">
+                            <div class="d-flex">
+                                <h1 class="font-weight-bold mr-2 px-3" style="color: white; background-color: #957bda">
+                                    VIEW
+                                </h1>
+                                <h1 style="color: #957bda">FINDER</h1>
+                            </div>
+                            <p class="card-text">
+                                Through The View Finder: Crafting Timeless Moments At Our Photography Stduio
+                            </p>
+                            <div class="social mt-2 mb-3">
+                                <li>
+                                    <a href="#">
+                                        <span class="fab fa-facebook fs-3"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="fab fa-twitter fs-3"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="fab fa-instagram fs-3"></span>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <h5 class="heading">Services</h5>
+                        <ul>
+                            <a href="./wedding.html"><li>Wedding Photography</li></a>
+                            <a href="./fashion.html"> <li>Fashion Photography</li></a>
+                            <a href="./event.html"> <li>Event Photography</li></a>
+                            <a href="./travel.html"> <li>Travel Photography</li></a>
+                            <a href="./sports.html"><li>Sports Photography</li></a>
+                            <a href="./product.html"><li>Product Photography</li></a>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <h5 class="heading">Company</h5>
+                        <ul class="card-text">
+                           <a href="./home.html"><li>About Us</li></a> 
+                           <a href=""><li>Blog</li></a> 
+
+                           <a href="./login.html"><li>Join Us</li></a> 
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-2" id="contact-us">
+                        <h5 class="heading">Contact Us</h5>
+                        <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">send Text</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary mt-3">Contact</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="divider mb-4"></div>
+                <div class="row" style="font-size: 10px">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="pull-left">
+                            <p><i class="fa fa-copyright"></i>2023 VIEWFINDER</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="pull-right mr-4 d-flex policy">
+                            <div>Terms of Use</div>
+                            <div>Privacy Policy</div>
+                            <div>Cookie Policy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap link -->
+
+    <!-- smtp link -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- nav bar script -->
+    <script>
+        let dropdowns = document.querySelectorAll('.dropdown-toggle')
+        dropdowns.forEach((dd) => {
+            dd.addEventListener('click', function (e) {
+                var el = this.nextElementSibling
+                el.style.display = el.style.display === 'block' ? 'none' : 'block'
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+/* * {
+    box-sizing: border-box;
+  } */
+/* gallary */
+  .home-1{
+    background-image: url(./weddingimg/img1.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .home-1 a:hover{
+    background-color:rgb(214, 163, 180);
+   border-radius: 10px;
+   transition: 0.2s ease-in-out;
+   }
+.slider img{
+        width: 100%;
+        height: 500px; 
+        object-fit: cover; 
+
+}
+  .slider-container {
+    position: relative;
+    max-width: 800px;
+    margin:auto;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    transition:transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  /* services */
+.service i:hover{
+    background-color:rgb(214, 163, 180);
+   border-radius: 10px;
+   transition: 0.2s ease-in-out;
+}
+
+/* booking  */
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    .card-registration img{
+        height:780px;
+    }
+
+
+    /* footer */
+
+#footer a{
+  text-decoration: none;
+  color:#c0c5e7;
+}
+#footer a:hover{
+  color: #957bda;;
+}
+
+
